@@ -25,14 +25,4 @@ This is a dynamic E-Commerce Cart System built using HTML, CSS, and JavaScript.
 - CSS
 - JavaScript
 
-## 📸 Screenshots
-
-(Add your screenshots here)
-
-## 🎥 Demo
-
-(Add your video or link)
-
----
-
 👨‍💻 Developed by Preetham M
