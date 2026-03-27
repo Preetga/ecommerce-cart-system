@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopEasy</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <h1>🛒 ShopEasy</h1>
+
+    <div>
+        <button onclick="toggleDarkMode()">🌙</button>
+        <a href="cart.html" class="cart-btn">
+            Cart 🛍️ (<span id="cart-count">0</span>)
+        </a>
+    </div>
+</nav>
+
+<section class="products">
+
+<div class="card">
+<img src="headphones.jpg" alt="headphones">
+<h3>Wireless Headphones</h3><p>₹1999</p>
+<button onclick="addToCart(1)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=400" alt="smartwatch">
+<h3>Smart Watch</h3><p>₹2499</p>
+<button onclick="addToCart(2)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="speaker.jpg" alt="speaker">
+<h3>Bluetooth Speaker</h3><p>₹1499</p>
+<button onclick="addToCart(3)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=400" alt="mouse">
+<h3>Gaming Mouse</h3><p>₹999</p>
+<button onclick="addToCart(4)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400" alt="backpack">
+<h3>Laptop Backpack</h3><p>₹1299</p>
+<button onclick="addToCart(5)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="keyboard.jpg" alt="keyboard">
+<h3>Keyboard</h3><p>₹899</p>
+<button onclick="addToCart(6)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="usb.jpg" alt="usb">
+<h3>USB Cable</h3><p>₹299</p>
+<button onclick="addToCart(7)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="powerbank.jpg" alt="powerbank">
+<h3>Power Bank</h3><p>₹1599</p>
+<button onclick="addToCart(8)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=400" alt="earbuds">
+<h3>Earbuds</h3><p>₹1199</p>
+<button onclick="addToCart(9)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400" alt="monitor">
+<h3>Monitor</h3><p>₹7999</p>
+<button onclick="addToCart(10)">Add to Cart</button>
+</div>
+
+</section>
+<div id="toast" class="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
